@@ -26,3 +26,24 @@ Generate dumps on memory leaks. [gist] (https://gist.github.com/grady-lad/457adc
 
 - Access Docker container `docker exec -i -t 665b4a1e17b6 /bin/bash`
 - copy files from docker `docker cp <containerId>:/file/path/within/container /host/path/target`
+
+
+# Logging with the javscript console.
+
+- warning messages `console.warn`
+- error log `console.error`
+- blue console messages `console.debug` (easy to find your message in a polluted env)
+- Use css in the console `console.log("this is my %output", "color: blue; font-size:33px")`
+- Add tab in your console log `console.log(\t)`
+- group messages with console comes great during iteration of methods. can also add groupCollapsed insteas of group or nesting
+`
+console.group('grouped messages');
+console.log('x');
+console.log('la');
+console.groupEnd();
+`
+- count console mesages `console.count("message")`
+- time (maybe object creation time `console.time(), console.timeEnded() //ends the time method`
+- tabular format use console.table, we can also specifiy which props to show using `console.table(obj, ['proptoshow'])`
+
+
