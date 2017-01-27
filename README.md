@@ -47,3 +47,6 @@ console.groupEnd();
 - tabular format use console.table, we can also specifiy which props to show using `console.table(obj, ['proptoshow'])`
 
 
+# Random 
+- share localhost on the web `"start:tunnel": "cross-env NODE_ENV=development ENABLE_TUNNEL=true node server",`
+
