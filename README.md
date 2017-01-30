@@ -1,6 +1,5 @@
 # Personal
-Just a central location of useful things to search against if I ever forget them.
-
+Just a central location of notes & useful things to search against if I ever forget them. (will pron need to group into differnt files).
 
 # Using the CMD for searching.
 
@@ -28,7 +27,7 @@ Generate dumps on memory leaks. [gist] (https://gist.github.com/grady-lad/457adc
 - copy files from docker `docker cp <containerId>:/file/path/within/container /host/path/target`
 
 
-# Logging with the javscript console.
+# Logging with the chrome console.
 
 - warning messages `console.warn`
 - error log `console.error`
@@ -46,6 +45,12 @@ console.groupEnd();
 - time (maybe object creation time `console.time(), console.timeEnded() //ends the time method`
 - tabular format use console.table, we can also specifiy which props to show using `console.table(obj, ['proptoshow'])`
 
+# Debugging with chrome console
+
+- When right clicking a breakpoint we can create an expression that will trigger the breakpoint if passed.
+- We can set breakpoints on elements, when attributes changes, or the node is removed or the element changes.
+- The watch panel allows you to view the value of a var throughout the whole time of your applicaition. (can also be an expression)
+- 
 
 # Random 
 - share localhost on the web `"start:tunnel": "cross-env NODE_ENV=development ENABLE_TUNNEL=true node server",`
