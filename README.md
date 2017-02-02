@@ -57,7 +57,7 @@ console.groupEnd();
 - to monitor events use `monitorevents` e.g `monitorEvents($(.kitten), 'hover')`
 - to view event bubbling select an element and click the event listener tab. There we can view ancestors of the event.
 - chrome allows you to take screenshots when viewing your page within the mobile tab.
--
+
 
 # Random 
 - share localhost on the web `"start:tunnel": "cross-env NODE_ENV=development ENABLE_TUNNEL=true node server",`
