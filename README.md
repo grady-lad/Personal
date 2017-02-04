@@ -58,6 +58,17 @@ console.groupEnd();
 - to view event bubbling select an element and click the event listener tab. There we can view ancestors of the event.
 - chrome allows you to take screenshots when viewing your page within the mobile tab.
 
+# NPM
+
+- require a module before running task `test: mocha spec/ --require babel-register`
+- list environment variables that will be available to the script at runtime `npm run env`
+- run scripts in series use `&`
+- run scripts in parrallel use `*&&`
+- run any script that matches pattern with npm-run-all eg `npm-run-all lint:*`
+- you can pipe the result from one npm script to another using `|` and output the result using `>`
+- we can get use entities from package.json as vars for example the version key. To access it use `$npm_package_verison`
+- we can create config vars within our package.json using the confg key `config: {...vars}` and we can get them within our scripts by using `$npm_package_config_<var_name>`
+
 
 # Random 
 - share localhost on the web `"start:tunnel": "cross-env NODE_ENV=development ENABLE_TUNNEL=true node server",`
