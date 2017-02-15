@@ -72,6 +72,7 @@ console.groupEnd();
 
 # Random 
 - share localhost on the web `"start:tunnel": "cross-env NODE_ENV=development ENABLE_TUNNEL=true node server",`
+- The :target selector allows us to interact with a fragment identifier, or hash, in our URL from CSS.
 
 # Terminator Shortcuts
  - Ctrl+Shift+X -  Toggle between  showing  all  terminals  and  only  showing  the current one.
