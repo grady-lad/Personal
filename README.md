@@ -72,7 +72,6 @@ console.groupEnd();
 
 # Random 
 - share localhost on the web `"start:tunnel": "cross-env NODE_ENV=development ENABLE_TUNNEL=true node server",`
-- The :target selector allows us to interact with a fragment identifier, or hash, in our URL from CSS.
 
 # Terminator Shortcuts
  - Ctrl+Shift+X -  Toggle between  showing  all  terminals  and  only  showing  the current one.
@@ -101,3 +100,10 @@ console.groupEnd();
 - `flex-shrink` Used to define how elements shrink when the combination of the elements is greater in size than the allocated space.
 - using `flex`: is shorthand for flex basis,shrink,grow, and different defaults than the norm. Using 1 will give all elements the same size for the allocated space.
 - Adding flex-wrap to a flexbox container allows the items to form a grid. The content can then be aligned and distributed along the grid using justify-content and align-content.
+
+# Random css
+- The :target selector allows us to interact with a fragment identifier, or hash, in our URL from CSS.
+- use `>` to style only direct childs of that div e.g. `section > a`
+- To style the adjacent sibling div use `+` e.g. `section h2 + p` will style only the p tag that comes after the h2 within section.
+- To style all the sibilings after a div use `section h1 ~ *`
+- create a selector in chrome. Right click an element within the element view and click copy selector. Go to the style tab and paste your selector within a new style and modify it to your needs :) 
