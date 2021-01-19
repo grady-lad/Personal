@@ -50,3 +50,8 @@ and edge process RAF after the render rather than before.
   * When opening a new page, the new page shares the same event loop and has access to its parent page via `window.opener.document` !!
   * `rel="noopener"` will stop this, add on the anchor tag
   * The above will only work on same origin. But when on cross origin it can navigate the url of the parent page via `window.opener.location`
+
+
+### Use css over js
+
+https://calendar.perfplanet.com/2020/html-and-css-techniques-to-reduce-your-javascript/
